@@ -1,9 +1,6 @@
 <template>
 	<div class="home">
 		<h2>Home page</h2>
-		<p>
-			<img src="../assets/IMG_1795.JPG" alt="美女">
-		</p>
 		<mp-modal 
 			v-model="show"
 			title="测试modal">
