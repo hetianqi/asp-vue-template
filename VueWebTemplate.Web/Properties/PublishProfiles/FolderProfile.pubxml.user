@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\code\eip\Release\EIP\VueWebTemplate</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/log4net.dll">
+      <publishTime>09/18/2017 17:01:09</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/VueWebTemplate.Common.dll">
+      <publishTime>06/27/2018 10:41:17</publishTime>
+    </File>
+    <File Include="bin/VueWebTemplate.Common.pdb">
+      <publishTime>06/27/2018 10:41:17</publishTime>
+    </File>
+    <File Include="bin/VueWebTemplate.Web.dll">
+      <publishTime>06/27/2018 10:41:17</publishTime>
+    </File>
+    <File Include="bin/VueWebTemplate.Web.pdb">
+      <publishTime>06/27/2018 10:41:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>01/28/2015 04:02:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>01/28/2015 04:02:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.resources.dll">
+      <publishTime>01/28/2015 04:04:32</publishTime>
+    </File>
+    <File Include="Client/.babelrc">
+      <publishTime>05/24/2018 16:18:00</publishTime>
+    </File>
+    <File Include="Client/.editorconfig">
+      <publishTime>05/18/2018 15:09:30</publishTime>
+    </File>
+    <File Include="Client/.eslintrc.js">
+      <publishTime>05/25/2018 17:40:30</publishTime>
+    </File>
+    <File Include="Client/build/build.js">
+      <publishTime>05/18/2018 17:56:12</publishTime>
+    </File>
+    <File Include="Client/build/config.js">
+      <publishTime>06/26/2018 10:25:32</publishTime>
+    </File>
+    <File Include="Client/build/utils.js">
+      <publishTime>05/18/2018 17:35:48</publishTime>
+    </File>
+    <File Include="Client/build/vue-loader.conf.js">
+      <publishTime>05/15/2018 16:39:46</publishTime>
+    </File>
+    <File Include="Client/build/webpack.base.conf.js">
+      <publishTime>06/27/2018 10:38:48</publishTime>
+    </File>
+    <File Include="Client/build/webpack.dev.conf.js">
+      <publishTime>06/22/2018 15:30:30</publishTime>
+    </File>
+    <File Include="Client/build/webpack.prod.conf.js">
+      <publishTime>06/22/2018 15:30:24</publishTime>
+    </File>
+    <File Include="Client/package.json">
+      <publishTime>06/26/2018 15:38:28</publishTime>
+    </File>
+    <File Include="Client/postcss.config.js">
+      <publishTime>05/13/2018 20:34:38</publishTime>
+    </File>
+    <File Include="Client/src/api/Common.js">
+      <publishTime>06/26/2018 15:53:25</publishTime>
+    </File>
+    <File Include="Client/src/assets/img/error-403.svg">
+      <publishTime>06/21/2018 16:12:26</publishTime>
+    </File>
+    <File Include="Client/src/assets/img/error-404.svg">
+      <publishTime>06/21/2018 16:17:20</publishTime>
+    </File>
+    <File Include="Client/src/bus.js">
+      <publishTime>06/26/2018 15:52:47</publishTime>
+    </File>
+    <File Include="Client/src/index.cshtml">
+      <publishTime>06/26/2018 10:23:50</publishTime>
+    </File>
+    <File Include="Client/src/index.js">
+      <publishTime>06/26/2018 15:57:29</publishTime>
+    </File>
+    <File Include="Client/src/libs/element-ui-setting.js">
+      <publishTime>06/26/2018 15:51:46</publishTime>
+    </File>
+    <File Include="Client/src/pages/Error403.vue">
+      <publishTime>06/22/2018 10:38:38</publishTime>
+    </File>
+    <File Include="Client/src/pages/Error404.vue">
+      <publishTime>06/22/2018 10:38:42</publishTime>
+    </File>
+    <File Include="Client/src/pages/Home.vue">
+      <publishTime>06/27/2018 10:37:03</publishTime>
+    </File>
+    <File Include="Client/src/pages/Layout.vue">
+      <publishTime>06/26/2018 13:55:06</publishTime>
+    </File>
+    <File Include="Client/src/pages/Login.vue">
+      <publishTime>05/29/2018 16:29:28</publishTime>
+    </File>
+    <File Include="Client/src/router.js">
+      <publishTime>06/26/2018 15:52:55</publishTime>
+    </File>
+    <File Include="Client/src/styles/main.scss">
+      <publishTime>06/22/2018 14:43:00</publishTime>
+    </File>
+    <File Include="Client/src/styles/veriables.scss">
+      <publishTime>05/29/2018 17:34:52</publishTime>
+    </File>
+    <File Include="Client/test/unit/.eslintrc">
+      <publishTime>05/09/2018 15:28:22</publishTime>
+    </File>
+    <File Include="Client/test/unit/jest.conf.js">
+      <publishTime>05/09/2018 15:31:22</publishTime>
+    </File>
+    <File Include="Client/test/unit/setup.js">
+      <publishTime>05/09/2018 15:31:32</publishTime>
+    </File>
+    <File Include="Client/test/unit/specs/HelloWorld.spec.js">
+      <publishTime>05/09/2018 15:32:02</publishTime>
+    </File>
+    <File Include="Client/yarn.lock">
+      <publishTime>06/26/2018 15:38:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/26/2018 10:05:26</publishTime>
+    </File>
+    <File Include="README.txt">
+      <publishTime>06/27/2018 09:24:16</publishTime>
+    </File>
+    <File Include="Static/css/app.css">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/css/app.css.map">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/fonts/element-icons.ttf">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/fonts/fontawesome-webfont.eot">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/fonts/fontawesome-webfont.ttf">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/fonts/fontawesome-webfont.woff">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/fonts/fontawesome-webfont.woff2">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/img/error-403.svg">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/img/error-404.svg">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/img/fontawesome-webfont.svg">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/js/app.js">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/js/app.js.map">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/js/manifest.js">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/js/manifest.js.map">
+      <publishTime>06/27/2018 10:39:36</publishTime>
+    </File>
+    <File Include="Static/js/vendor.js">
+      <publishTime>06/27/2018 10:39:35</publishTime>
+    </File>
+    <File Include="Static/js/vendor.js.map">
+      <publishTime>06/27/2018 10:39:36</publishTime>
+    </File>
+    <File Include="Views/index.cshtml">
+      <publishTime>06/27/2018 10:39:36</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>06/26/2018 10:05:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/27/2018 10:41:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
