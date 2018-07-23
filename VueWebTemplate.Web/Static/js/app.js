@@ -2124,28 +2124,79 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
+var _regenerator = __webpack_require__("Xxa5");
+
+var _regenerator2 = _interopRequireDefault(_regenerator);
+
 var _bus = __webpack_require__("14gb");
 
 var _bus2 = _interopRequireDefault(_bus);
 
+var _Work = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../api/Work\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _Work2 = _interopRequireDefault(_Work);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; } //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 exports.default = {
 	data: function data() {
 		return {
-			msg: '数据绑定示例'
+			msg: '数据绑定示例',
+			list: []
 		};
 	},
 	created: function created() {
 		_bus2.default.pageNav = '首页';
+		this.getList();
+	},
+
+	methods: {
+		getList: function () {
+			var _ref = _asyncToGenerator( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
+				var _ref2, data;
+
+				return _regenerator2.default.wrap(function _callee$(_context) {
+					while (1) {
+						switch (_context.prev = _context.next) {
+							case 0:
+								_context.next = 2;
+								return _Work2.default.getList();
+
+							case 2:
+								_ref2 = _context.sent;
+								data = _ref2.data;
+
+								if (data.State) {
+									this.list = data.Data;
+								}
+
+							case 5:
+							case 'end':
+								return _context.stop();
+						}
+					}
+				}, _callee, this);
+			}));
+
+			function getList() {
+				return _ref.apply(this, arguments);
+			}
+
+			return getList;
+		}()
 	}
-}; //
-//
-//
-//
-//
-//
-//
+};
 
 /***/ }),
 
@@ -2835,11 +2886,24 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("h1", [_vm._v("VueWebTemplate")]),
-    _vm._v(" "),
-    _c("p", [_vm._v(_vm._s(_vm.msg))])
-  ])
+  return _c(
+    "div",
+    [
+      _c("h1", [_vm._v("VueWebTemplate")]),
+      _vm._v(" "),
+      _c(
+        "el-table",
+        { attrs: { data: _vm.list } },
+        [
+          _c("el-table-column", { attrs: { label: "Key", prop: "Key" } }),
+          _vm._v(" "),
+          _c("el-table-column", { attrs: { label: "Value", prop: "Value" } })
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -3116,4 +3180,4 @@ exports.default = {
 /***/ })
 
 },["lVK7"]);
-//# sourceMappingURL=app.js.map?v=e84199b
+//# sourceMappingURL=app.js.map?v=a36c69c

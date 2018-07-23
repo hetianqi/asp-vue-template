@@ -14,9 +14,9 @@ VueWebTemplate项目模板说明：
 
 三、前端说明
 	1、前端需要安装Node.js和yarn
-		(1)、安装Node.js，直接从 http://nodejs.cn/ 下载安装
-		(2)、安装yarn，直接从 https://yarnpkg.com/zh-Hans/ 下载安装
-		(3)、安装python2，直接从 https://www.python.org/downloads/release/python-2712/ 下载安装
+		(1)、安装Node.js，直接从 http://nodejs.cn/ 下载安装，安装完成在命令行窗口输入 node -v 测试是否安装成功，如果没有成功则检查环境变量中是否有 C:\Program Files\nodejs\(这里指的是默认安装目录，如果修改了请替换成修改之后的目录)
+		(2)、安装yarn，直接从 https://yarnpkg.com/zh-Hans/ 下载安装，安装完成在命令行窗口输入 yarn -v 测试是否安装成功，如果没有成功则检查环境变量中是否有 C:\Program Files (x86)\Yarn\bin\(这里指的是默认安装目录，如果修改了请替换成修改之后的目录)
+		(3)、安装python2，直接从 https://www.python.org/downloads/release/python-2712/ 下载安装，安装完成在命令行窗口输入 python --version 测试是否安装成功，如果没有成功则检查环境变量中是否有 C:\Python27\(这里指的是默认安装目录，如果修改了请替换成修改之后的目录)
 	2、前端目录说明
 		Client						代码根目录
 		  |-- build					运行webpack进行构建代码所需的文件，其中的config.js文件包含构建的配置选项
@@ -35,7 +35,6 @@ VueWebTemplate项目模板说明：
 		  |		|-- router.js		路由配置
 		  |-- static				静态资源目录，和src/assets不同，该目录的文件会直接复制到构建之后的文件夹中，
 									不需要在js中通过require引用，一般用不上
-		  |-- test					测试目录，目前基本用不上
 		  |-- .babelrc				babel编译配置
 		  |-- .editorconfig			统一编辑器配置
 		  |-- .eslintrc.js			eslint校验配置
@@ -55,7 +54,14 @@ VueWebTemplate项目模板说明：
 		(4)、拷贝到服务器时，一般只需要将Staitc和Views目录拷贝过去，不需要Client目录
 
 四、技术文档
-	1、Vue.js(https://cn.vuejs.org/v2/guide/)
-	2、Vue-Router(https://router.vuejs.org/zh/)
-	3、Element-UI(http://element.eleme.io/#/zh-CN/component/installation)
-	4、字体图标库font-awesome(https://fontawesome.com/v4.7.0/icons/)
+	1、ES6(http://es6.ruanyifeng.com/)
+	2、Vue.js(https://cn.vuejs.org/v2/guide/)
+	3、Vue-Router(https://router.vuejs.org/zh/)
+	4、Element-UI(http://element.eleme.io/#/zh-CN/component/installation)
+	5、字体图标库font-awesome(https://fontawesome.com/v4.7.0/icons/)
+	6、Webpack(https://webpack.docschina.org/concepts/)
+
+五、开发工具
+	1、建议使用visual studio 2017
+	2、在 工具栏->扩展和更新->联机 中搜索并安装 vue.js pack 2017，这样可识别.vue文件的语法
+	3、在 工具栏->扩展和更新->联机 中搜索并安装 以及 open command line，这样可在指定目录右键打开命令行窗口
